@@ -1,3 +1,4 @@
+/* Reset Css */
 * {
     margin: 0;
     padding: 0;
@@ -5,8 +6,8 @@
     text-decoration: none;
 }
 
+/* Declaração de Variaveis */
 :root {
-    --primary-color: ;
-    --scondary-color: ;
-    --text-color: ;
+    --header-height: 3rem;
+    --nav-width: 324px;
 }
