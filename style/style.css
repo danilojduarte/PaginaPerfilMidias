@@ -10,4 +10,38 @@
 :root {
     --header-height: 3rem;
     --nav-width: 324px;
+
+    /* = Font Weight = */
+    --font-medium: 500;
+    --font-semi-bold: 600;
+    --font-bold: 700;
+
+    /* = Colors = */
+    --first-color: #cc4b2c;
+    --first-color-dark: #662616;
+    --first-color-darken: #290f09;
+    --text-color: #54423d;
+    --first-color-light: #eae7e6;
+    --first-color-lighten: #fffafa;
+
+    /* = font e styles */
+    --body-font: 'Poppins', sans-serif;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1rem;
+    --normal-font-size: .938rem;
+    --small-font-size: .813rem;
+    --smailler-font-size: .75rem;
+
+    /* = margens = */
+    --mb-1: .5rem;
+    --mb-2: 1rem;
+    --mb-3: 1.5rem;
+    --mb-4: 2rem;
+    --mb-5: 2.5rem;
+
+    /* = z index = */
+    --z-fixed: 100;
 }
+
+/* = Media Querie = */
