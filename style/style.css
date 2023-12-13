@@ -170,3 +170,7 @@ img {
     font-size: 1.3rem;
     cursor: pointer;
 }
+/* = Show Menu = */
+.show {
+    left: 0;
+}
