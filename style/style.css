@@ -125,3 +125,23 @@ img {
     background-color: var(--first-color-lighten);
     box-shadow: 0 2px 4px rgb(0, 0, 0, .1);
 }
+
+/* = Nav = */
+.nav {
+    height: var(--header-height);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 100vh;
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    background-color: var(--first-color);
+    transition:  .5s;
+}
