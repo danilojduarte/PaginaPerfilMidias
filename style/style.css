@@ -136,12 +136,37 @@ img {
 .nav-menu {
     position: fixed;
     top: 0;
-    left: 0;
+    left: -100%;
     width: 90%;
     height: 100vh;
     padding: 3rem;
     display: flex;
     align-items: center;
     background-color: var(--first-color);
-    transition:  .5s;
+    transition: .5s;
+}
+.nav-close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: var(--first-color-dark);
+    cursor: pointer;
+}
+.nav-item {
+    margin-bottom: var(--mb-4);
+}
+.nav-link {
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: var(--first-color-lighten);
+    font-size: var(--font-bold);
+    transition: .3s;
+}
+.nav-link:hover {
+    color: var(--text-color);
+}
+.nav-toggle {
+    color: var(--first-color-dark);
+    font-size: 1.3rem;
+    cursor: pointer;
 }
