@@ -19,3 +19,24 @@ function linkAction(){
     navMenu.classList.remove('show')
 }
 navLink.forEach(n => n.addEventListener('click', linkAction))
+
+// Scroll Sections active link
+const sections = document.querySelectorAll('section[id]')
+
+window.addEventListener('scroll', scrollActive)
+
+function scrollActive(){
+    const scrollY = window.pageXOffset
+
+    sections.forEach(current =>{
+        const sectionsHeight = current.pageXOffsetHeight
+        const sectionTop = current.offsetTop - 50
+        sectionId = current.getAttribute('id')
+
+        if(scrollY > sectionTop && scrollY <= sectionTop +sectionsHeight){
+            document.querySelector('.nav-menu a[href*=' + sectionId +']').classList.add('active')
+        }else{
+            document.querySelector('.nav-menu a[href*=' + sectionId +']').classList.remove('active')
+        }
+    })
+}
