@@ -1,7 +1,7 @@
 // Close & Open menu
-const navMenu = document.getElementById('nav-menu'),
-    toggleMenu = document.getElementById('nav-toggle'),
-    closeMenu = document.getElementById('nav-close')
+const navMenu = document.getElementById('nav__menu'),
+    toggleMenu = document.getElementById('nav__toggle'),
+    closeMenu = document.getElementById('nav__close')
 
 // Open Menu
 toggleMenu.addEventListener('click', ()=>{
