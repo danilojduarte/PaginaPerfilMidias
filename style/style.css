@@ -191,3 +191,13 @@ img {
     height: max-content;
     text-align: center;
 }
+.home-img {
+    /* padding-top: 1.3;
+    padding-left: .8rem; */
+    width: 160px;
+    height: 160px;
+    background-color: var(--first-color);
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: var(--mb-2);
+}
