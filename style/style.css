@@ -178,3 +178,16 @@ img {
 .active {
     color: var(--text-color);
 }
+
+/*  = Home = */
+.home-container {
+    height: calc(100vh - var(--header-height));
+    align-items: center;
+}
+.home-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: max-content;
+    text-align: center;
+}
