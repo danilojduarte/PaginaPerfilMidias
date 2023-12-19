@@ -23,7 +23,7 @@
     --h3-font-size: 1rem;
     --normal-font-size: .938rem;
     --small-font-size: .813rem;
-    --smailler-font-size: .75rem;
+    --small-font-size: .75rem;
 
     /* = margens = */
     --mb-1: .5rem;
@@ -44,7 +44,7 @@
     --h3-font-size: 1.25rem;
     --normal-font-size: 1rem;
     --small-font-size: .875rem;
-    --smailler-font-size: .813rem;
+    --small-font-size: .813rem;
     }
 }
 
@@ -256,3 +256,43 @@ img {
 }
 
 /*  = About = */
+.about-container {
+    row-gap: 2rem;
+}
+.about-data {
+    text-align: center;
+}
+.about-description {
+    margin-bottom: var(--mb-4);
+}
+.about-img {
+    width: 150px;
+    border-radius: .5rem;
+    margin: 0 auto;
+}
+.about-information {
+    margin-bottom: var(--mb-4);
+}
+.about-information-title {
+    font-size: var(--h3-font-size);
+    color: var(--first-color-dark);
+    margin-bottom: var(--mb-2);
+}
+.about-information-data {
+    display: flex;
+    align-items: center;
+    padding-left: 1.5rem;
+    margin-bottom: var(--mb-3);
+}
+.about-information-icon {
+    font-size: 1.5rem;
+    color: var(--first-color);
+    margin-right: var(--mb-4);
+}
+.about-information-subtitle {
+    display: block;
+    font-weight: var(--font-semi-bold);
+}
+.about-information-subtitle-small {
+    font-size: var(--small-font-size);
+}
