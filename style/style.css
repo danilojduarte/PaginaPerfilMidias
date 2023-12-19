@@ -230,3 +230,17 @@ img {
 .home-social-link:hover {
     background-color: var(--first-color-dark);
 }
+
+/*  = Button = */
+.button {
+    display: inline-block;
+    background-color: var(--first-color);
+    color: var(--first-color-lighten);
+    padding: 1rem 2rem;
+    font-weight: var(--font-semi-bold);
+    border-radius: 5rem;
+    transition: .3s;
+}
+.button:hover {
+    background-color: var(--first-color-dark);
+}
