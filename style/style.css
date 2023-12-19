@@ -230,6 +230,9 @@ img {
 .home-social-link:hover {
     background-color: var(--first-color-dark);
 }
+.home-button {
+    width: 100%;
+}
 
 /*  = Button = */
 .button {
@@ -243,4 +246,11 @@ img {
 }
 .button:hover {
     background-color: var(--first-color-dark);
+}
+.button-light {
+    background-color: var(--first-color-lighten);
+    color: var(--first-color);
+}
+.button-light:hover {
+    color: var(--first-color-lighten);
 }
