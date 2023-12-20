@@ -301,3 +301,18 @@ img {
 .skills-container {
     row-gap: 2rem;
 }
+.skills-subtitle {
+    font-size: var(--h3-font-size);
+    color: var(--first-color-dark);
+    margin-bottom: var(--mb-2);
+}
+.skilss-data {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 var(--mb-2);
+    margin-bottom: var(--mb-4);
+}
+.skills-name {
+    text-transform: uppercase;
+}
