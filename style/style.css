@@ -306,7 +306,7 @@ img {
     color: var(--first-color-dark);
     margin-bottom: var(--mb-2);
 }
-.skilss-data {
+.skils-data {
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -315,4 +315,13 @@ img {
 }
 .skills-name {
     text-transform: uppercase;
+}
+.skills-bar {
+    position: absolute;
+    bottom: -.75rem;
+    height: .25rem;
+    background-color: var(--first-color);
+}
+.skills-html {
+    width: 80%;
 }
