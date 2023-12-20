@@ -296,3 +296,8 @@ img {
 .about-information-subtitle-small {
     font-size: var(--small-font-size);
 }
+
+/* = Skills = */
+.skills-container {
+    row-gap: 2rem;
+}
