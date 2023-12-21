@@ -323,5 +323,14 @@ img {
     background-color: var(--first-color);
 }
 .skills-html {
-    width: 80%;
+    width: 75%;
+}
+.skills-js {
+    width: 70%;
+}
+.skills-react {
+    width: 40%;
+}
+.skills-figma {
+    width: 70%;
 }
