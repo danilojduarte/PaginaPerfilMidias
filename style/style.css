@@ -306,7 +306,7 @@ img {
     color: var(--first-color-dark);
     margin-bottom: var(--mb-2);
 }
-.skils-data {
+.skills-data {
     position: relative;
     display: flex;
     justify-content: space-between;
