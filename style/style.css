@@ -322,6 +322,7 @@ img {
     height: .25rem;
     background-color: var(--first-color);
 }
+/* = Skills FrontEnd = */
 .skills-html {
     width: 75%;
 }
@@ -333,4 +334,9 @@ img {
 }
 .skills-figma {
     width: 70%;
+}
+
+/* = Skills BackEnd = */
+.skills-html {
+    width: 75%;
 }
