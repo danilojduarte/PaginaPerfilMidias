@@ -300,6 +300,8 @@ img {
 /* = Skills = */
 .skills-container {
     row-gap: 2rem;
+    /* Add padding-lefet, pois o row-gap não esta funcionando */
+    padding-left: 2rem; 
 }
 .skills-subtitle {
     font-size: var(--h3-font-size);
@@ -337,6 +339,12 @@ img {
 }
 
 /* = Skills BackEnd = */
-.skills-html {
-    width: 75%;
+.skills-aws {
+    width: 40%;
+}
+.skills-mysql {
+    width: 40%;
+}
+.skills-python {
+    width: 30%;
 }
