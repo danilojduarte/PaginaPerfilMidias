@@ -368,3 +368,16 @@ img {
     display: block;
     font-size: var(--small-font-size);
 }
+.education-year, .education-university {
+    text-align: right;
+}
+.education-time {
+    padding: 0 1rem;
+    justify-content: center;
+}
+.education-rounder {
+    position: relative;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+}
