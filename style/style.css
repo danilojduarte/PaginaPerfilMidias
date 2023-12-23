@@ -380,4 +380,22 @@ img {
     display: inline-block;
     width: 12px;
     height: 12px;
+    background-color: var(--first-color);
+    border-radius: 50%;
+}
+.education-rounder::before {
+    content: '';
+    position: absolute;
+    transform: translate(-4px, -4px);
+    width: 20px;
+    height: 20px;
+    border: 1px solid var(--first-color);
+    border-radius: 50%;
+}
+.education-line {
+    display: block;
+    height: 50%;
+    width: 2px;
+    background-color: var(--first-color);
+    transform: translate(5px, -4px);
 }
