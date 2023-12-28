@@ -257,7 +257,8 @@ img {
 
 /*  = About = */
 .about-container {
-    row-gap: 2rem;
+    /* row-gap: 2rem; */
+    padding-left: 2rem;
 }
 .about-data {
     text-align: center;
@@ -299,7 +300,7 @@ img {
 
 /* = Skills = */
 .skills-container {
-    row-gap: 2rem;
+    /* row-gap: 2rem; */
     /* Add padding-lefet, pois o row-gap não esta funcionando */
     padding-left: 2rem; 
 }
@@ -352,7 +353,7 @@ img {
 /*  = Education = */
 
 .education-container {
-    row-gap: 2rem;
+    /* row-gap: 2rem; */
     padding-left: 2rem;
     /* Add padding-lefet, pois o row-gap não esta funcionando */
 }
@@ -402,7 +403,7 @@ img {
 
 /* = Services = */
 .services-container {
-    row-gap: 2rem;
+    /* row-gap: 2rem; */
     padding-left: 2rem;
 }
 .services-content {
@@ -444,3 +445,30 @@ img {
 .services-content:hover .services-description {
     color: var(--first-color-lighten);
 }
+
+/* = Project = */
+.project {
+    background-color: var(--first-color);
+    padding-bottom: 0;
+}
+.project-container {
+    /* row-gap: 2rem; */
+    padding-left: 2rem;
+}
+.project-data {
+    text-align: center;
+}
+.project-title, .project-description {
+    color: var(--first-color-lighten);
+}
+.project-description {
+    margin-bottom: var(--mb-4);
+}
+.project-img {
+    width: 220px;
+    padding-top: 2rem;
+   margin: auto; 
+}
+/* .project-img img {
+    justify-self: center;
+} */
