@@ -478,3 +478,37 @@ img {
     justify-content: center;
     row-gap: 2rem;
 }
+.works-img {
+    position: relative;
+    overflow: hidden;
+    border-radius: .5rem;
+}
+.works-data {
+    position: absolute;
+    bottom: -100%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(204, 75, 44, .7);
+    border-radius: .5rem;
+    transition: .3s;
+}
+.works-link {
+    display: inline-flex;
+    font-size: 1.5rem;
+    background-color: var(--first-color-lighten);
+    color: var(--first-color);
+    padding: .25rem;
+    border-radius: .25rem;
+    margin-bottom: var(--mb-2);
+}
+.works-title {
+    font-size: var(--h2-font-size);
+    color: var(--first-color-lighten);
+}
+.works-img:hover .works-data {
+    bottom: 0;
+}
