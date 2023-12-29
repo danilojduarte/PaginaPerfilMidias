@@ -473,3 +473,8 @@ img {
     justify-self: center;
 } */
 
+/* = Works = */
+.works-container {
+    justify-content: center;
+    row-gap: 2rem;
+}
