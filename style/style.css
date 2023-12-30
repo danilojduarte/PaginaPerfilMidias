@@ -477,11 +477,13 @@ img {
 .works-container {
     justify-content: center;
     row-gap: 2rem;
+    
 }
 .works-img {
     position: relative;
     overflow: hidden;
     border-radius: .5rem;
+    margin-bottom: 2rem;
 }
 .works-data {
     position: absolute;
