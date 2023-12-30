@@ -114,7 +114,7 @@ img {
     column-gap: 2rem;
     width: calc(100% - 2rem);
     margin-left: var(--mb-2);
-    margin-left: var(--mb-2);
+    margin-right: var(--mb-2);
 }
 .header-l {
     width: 100%;
@@ -241,8 +241,9 @@ img {
     color: var(--first-color-lighten);
     padding: 1rem 2rem;
     font-weight: var(--font-semi-bold);
-    border-radius: 5rem;
+    border-radius: .5rem;
     transition: .3s;
+    margin-bottom: 1rem;
 }
 .button:hover {
     background-color: var(--first-color-dark);
@@ -257,8 +258,8 @@ img {
 
 /*  = About = */
 .about-container {
-    /* row-gap: 2rem; */
-    padding-left: 2rem;
+    row-gap: 2rem;
+    
 }
 .about-data {
     text-align: center;
@@ -300,9 +301,10 @@ img {
 
 /* = Skills = */
 .skills-container {
-    /* row-gap: 2rem; */
+    row-gap: 2rem;
+    padding-left: 2rem;
     /* Add padding-lefet, pois o row-gap não esta funcionando */
-    padding-left: 2rem; 
+    
 }
 .skills-subtitle {
     font-size: var(--h3-font-size);
@@ -353,7 +355,7 @@ img {
 /*  = Education = */
 
 .education-container {
-    /* row-gap: 2rem; */
+    row-gap: 2rem;
     padding-left: 2rem;
     /* Add padding-lefet, pois o row-gap não esta funcionando */
 }
@@ -403,15 +405,17 @@ img {
 
 /* = Services = */
 .services-container {
-    /* row-gap: 2rem; */
-    padding-left: 2rem;
+    row-gap: 2rem;
+    padding: 0 1rem 0 1rem;
+    
 }
 .services-content {
-    padding: 1.5rem .5rem;
+    padding: 1.5rem 1.5rem;
     border: 2px solid var(--first-color);
     border-radius: .5rem;
     text-align: center;
     margin-bottom: 2rem;
+    
 }
 .services-icon {
     font-size: 2rem;
@@ -452,7 +456,7 @@ img {
     padding-bottom: 0;
 }
 .project-container {
-    /* row-gap: 2rem; */
+    row-gap: 2rem;
     padding-left: 2rem;
 }
 .project-data {
@@ -467,7 +471,7 @@ img {
 .project-img {
     width: 220px;
     padding-top: 2rem;
-   margin: auto; 
+    margin: auto;
 }
 /* .project-img img {
     justify-self: center;
@@ -516,3 +520,41 @@ img {
 }
 
 /* = Contact = */
+.contact-container {
+    row-gap: 3rem;
+    padding-left: 3rem;
+}
+.contact-input {
+    width: 100%;
+    padding: 1rem;
+    outline: none;
+    border: none;
+    background-color: var(--first-color-light);
+    font-size: var(--normal-font-size);
+    margin-bottom: var(--mb-2);
+    border-radius: .5rem;
+}
+.contact ::placeholder {
+    color: var(--first-color-dark);
+    font-family: var(--body-font);
+    font-weight: var(--font-medium);
+}
+.contact-button {
+     outline: none;
+     border: none;
+     font-family: var(--body-font);
+     font-size: var(--normal-font-size);
+     cursor: pointer;
+}
+.contact-info {
+    margin-bottom: var(--mb-3);
+}
+.contact-subtitle {
+    font-size: var(--h3-font-size);
+    color: var(--first-color-dark);
+    margin-bottom: var(--mb-1);
+}
+.contact-text {
+    display: block;
+    padding-left: 1rem;
+}
