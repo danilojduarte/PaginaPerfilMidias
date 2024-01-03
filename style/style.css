@@ -600,4 +600,22 @@ img {
     .home-button {
         width: initial;
     }
+    .nav-menu {
+        width: var(--nav-width);
+    }
+    .about-container {
+        grid-template-columns: repeat(2,1fr);
+    }
+    .about-data {
+        text-align: center;
+    }
+    .about-description {
+        margin-bottom: var(--mb-5);
+    }
+    .about-img {
+        width: 220px;
+    }
+    .about-information {
+        padding-left: 4rem;
+    }
 }
