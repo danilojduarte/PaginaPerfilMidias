@@ -603,7 +603,9 @@ img {
     .nav-menu {
         width: var(--nav-width);
     }
-    .about-container {
+    .about-container,
+    .skills-container,
+    .services-container {
         grid-template-columns: repeat(2,1fr);
     }
     .about-data {
@@ -617,5 +619,17 @@ img {
     }
     .about-information {
         padding-left: 4rem;
+    }
+    .education-time {
+        padding: 0 2rem;
+    }
+    .project {
+        background: none;
+    }
+    .project-container {
+        background-color: var(--first-color);
+        grid-template-columns: 2fr 1.2fr;
+        padding: 0 2rem;
+        border-radius: .5rem;
     }
 }
