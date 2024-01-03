@@ -595,5 +595,9 @@ img {
 }
 
 
-/* = Media Query = */
-
+/* = Media Queries = */
+@media screen and (min-width: 768px) {
+    .home-button {
+        width: initial;
+    }
+}
