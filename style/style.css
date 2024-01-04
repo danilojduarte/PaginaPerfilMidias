@@ -415,7 +415,8 @@ img {
     border: 2px solid var(--first-color);
     border-radius: .5rem;
     text-align: center;
-    margin-bottom: 2rem;
+    margin: 1rem ;
+    /* margin-bottom: 2rem; */
     
 }
 .services-icon {
@@ -607,6 +608,8 @@ img {
     .about-container,
     .skills-container,
     .services-container {
+        display: grid;
+        grid-area: 1rem;
         grid-template-columns: repeat(2,1fr);
     }
     .about-data {
@@ -629,8 +632,15 @@ img {
     }
     .project-container {
         background-color: var(--first-color);
+        display: grid;
         grid-template-columns: 2fr 1.2fr;
         padding: 0 2rem;
         border-radius: .5rem;
+    }
+    .project-data {
+        padding: 3rem 0;
+    }
+    .skills-container {
+        display: grid;
     }
 }
