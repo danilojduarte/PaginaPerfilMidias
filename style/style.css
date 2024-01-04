@@ -483,13 +483,14 @@ img {
 .works-container {
     justify-content: center;
     row-gap: 2rem;
+
     
 }
 .works-img {
     position: relative;
     overflow: hidden;
     border-radius: .5rem;
-    margin-bottom: 2rem;
+    margin: 1rem;
 }
 .works-data {
     position: absolute;
@@ -607,7 +608,8 @@ img {
     }
     .about-container,
     .skills-container,
-    .services-container {
+    .services-container,
+    .works-container {
         display: grid;
         grid-area: 1rem;
         grid-template-columns: repeat(2,1fr);
@@ -642,5 +644,12 @@ img {
     }
     .skills-container {
         display: grid;
+    }
+    .project-title, .project-data {
+        text-align: initial;
+    }
+    .project-img {
+        width: 230px;
+        align-self: flex-end;
     }
 }
