@@ -652,4 +652,10 @@ img {
         width: 230px;
         align-self: flex-end;
     }
+    .contact-container,
+    .contact-inputs {
+        display: grid;
+        grid-area: 1rem;
+        grid-template-columns: repeat(2,1fr);
+    }
 }
