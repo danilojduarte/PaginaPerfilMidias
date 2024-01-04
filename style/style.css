@@ -652,10 +652,18 @@ img {
         width: 230px;
         align-self: flex-end;
     }
-    .contact-container,
-    .contact-inputs {
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-container {
         display: grid;
         grid-area: 1rem;
+        gap: 1rem;
         grid-template-columns: repeat(2,1fr);
+    }
+    .contact-inputs {
+        display: grid;
+        column-gap: 1.5rem;
     }
 }
