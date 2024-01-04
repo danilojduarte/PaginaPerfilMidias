@@ -82,7 +82,7 @@ a {
     color: var(--text-color);
 }
 img {
-    width: 100%;
+    max-width: 100%;
     height: auto;
     display: block;
 }
@@ -150,6 +150,7 @@ img {
     top: 1rem;
     right: 1rem;
     font-size: var(--first-color-dark);
+    color: var(--first-color-dark);
     cursor: pointer;
 }
 .nav-item {
