@@ -686,4 +686,26 @@ img {
         margin: 0;
         padding-left: var(--nav-width)
     }
+    .header-l {
+        width: 0;
+    }
+    .nav-toggle, .nav-logo, .nav-close {
+        display: none;
+    }
+    .nav-menu {
+        left: 0;
+    }
+    .home-container {
+        height: 100vh;
+    }
+    .section {
+        padding: 3rem 0 2rem;
+    }
+    .bg-grid {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .services-container, .works-container {
+        grid-template-columns: repeat(3,1fr);
+    }
 }
