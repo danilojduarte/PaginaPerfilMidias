@@ -666,4 +666,7 @@ img {
         display: grid;
         column-gap: 1.5rem;
     }
+    .contact-info {
+        padding-left: 3rem;
+    }
 }
