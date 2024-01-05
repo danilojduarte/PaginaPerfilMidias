@@ -638,6 +638,7 @@ img {
         grid-template-columns: 2fr 1.2fr;
         padding: 0 2rem;
         border-radius: .5rem;
+        margin: .5rem;
     }
     .project-data {
         padding: 3rem 0;
@@ -668,5 +669,21 @@ img {
     }
     .contact-info {
         padding-left: 3rem;
+    }
+    .footer {
+        background: none;
+    }
+    .footer-container {
+        background-color: var(--first-color-dark);
+        padding: 3rem 0;
+        border-radius: .5rem;
+        margin: .5rem;
+    }
+}
+
+@media  screen and (min-width: 1024px) {
+    body {
+        margin: 0;
+        padding-left: var(--nav-width)
     }
 }
