@@ -524,6 +524,7 @@ img {
 .contact-container {
     row-gap: 3rem;
     padding-left: 3rem;
+    padding-right: 3rem;
 }
 .contact-input {
     width: 100%;
@@ -565,6 +566,8 @@ img {
     background-color: var(--first-color-darken);
     color: var(--first-color-lighten);
     text-align: center;
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
 .footer-title {
     font-size: var(--h1-font-size);
