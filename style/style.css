@@ -454,7 +454,7 @@ img {
 
 /* = Project = */
 .project {
-    background-color: var(--first-color);
+    background-color: var(--first-color-light);
     padding-bottom: 0;
 }
 .project-container {
@@ -465,7 +465,7 @@ img {
     text-align: center;
 }
 .project-title, .project-description {
-    color: var(--first-color-lighten);
+    color: var(--first-color);
 }
 .project-description {
     margin-bottom: var(--mb-4);
@@ -711,3 +711,6 @@ img {
         grid-template-columns: repeat(3,1fr);
     }
 }
+
+
+/* Ajustar section project com noas fotos */
